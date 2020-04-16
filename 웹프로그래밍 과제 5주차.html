@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <from action="/aaa/search.php" method="get">
+    <table border="1">
+    <tr>
+       <th>이름 </th> <th><input type="text"></th> 
+       <td>학번 </td> <th><input type="text"></th>
+    </tr>
+    <tr>
+        <th>성별</th> <td colspan="4"><input type="radio" id="male" name="gender" value="male" checked><label for="male">남</label>
+        <input type="radio" name="gender" value="female">여</td>
+    </tr>
+    <tr>
+        <th>좋아하는 계절</th> <td colspan="4"><select>
+            <option>선택</option>
+            <option>여름</option>
+            <option>겨울</option>
+            <option>가을</option>
+            <option>봄</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th>취미</th> <td colspan="4">
+            <input type="checkbox" name="hobby1" valu="book">독서
+            <input type="checkbox" name="hobby2" valu="exercise">운동
+            <input type="checkbox" name="hobby3" valu="watching movise">영화감상
+            <input type="checkbox" name="hobby4" valu="listening to music">음악감상
+            <input type="checkbox" name="hobby5" valu="guitar">기타
+        </td>
+        </tr>
+        </table>
+        <input type="submit" value="전송"></tr>
+    </from>
+</body>
+</html>
